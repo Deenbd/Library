@@ -3,49 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>চাঁদের পাহাড়</title>	<style type="text/css">
+	<title>চাঁদের পাহাড় | Deen Library</title>	
+	<link href="logo backsoho_only.png" rel="icon">
+	<style type="text/css">
 
 		body {
 			background-color: #aae0ff;
 		}
 
 		header {
-			background-color: steelblue;
-			height: 50px;
-			width: 100%;
-			font-size: 30px;
-			text-align: right;
-			align-items: center;
-		}
+    background-color: steelblue;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between; /* দুটি এলিমেন্টকে দুই পাশে সরিয়ে দেবে */
+    align-items: center; /* উল্লম্বভাবে সেন্টার করবে */
+    padding: 0 20px; /* কিছু প্যাডিং যোগ করুন যেন একদম প্রান্তে না লাগে */
+}
 
-		a {
-			text-decoration: none;
-			color: white;
-			margin-right: 20px;
-		}
+header div {
+    text-align: left; /* প্রথম div-এর টেক্সট বামে থাকবে */
+    display: flex;
+    align-items: center;
+}
 
-		a:hover {
-			text-decoration: none;
-			color: #01ffa1;
-			margin-right: 20px;
-		}
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
 
-		#w {
-			text-decoration: underline;
-		}
+a:hover {
+    text-decoration: none;
+    color: #01ffa1;
+}
 
-		img {
-			margin-up: 5px;
-			height: 45px;
-			width: auto;
-		}
+#w {
+    text-decoration: underline;
+}
+
+img {
+    margin-right: 10px;
+    height: 45px;
+    width: auto;
+}
+
 	</style>
 </head>
 <body>
 <header>
-	<img src="logo_backchara_only.png">
-	<a href="https://deenbd.github.io/Library/"><b id="w">Home</b></a> <a href="https://deenbd.github.io/Library/00001"><b>চাঁদের পাহাড়</b></a>
+    <a href="https://deenbd.github.io/Library"><div>
+        <img src="logo_backchara_only.png">
+        <h4>Deen Library</h4>
+    </div></a>
+    <nav>
+        <a href="https://deenbd.github.io/Library/"><b>Home</b></a>
+        <a href="https://deenbd.github.io/Library/00001"><b id="w">চাঁদের পাহাড়</b></a>
+    </nav>
 </header>
+
 <br>
 <iframe src="চাঁদের পাহাড়.pdf" width="100%" height="575px"></iframe>
 </body>
